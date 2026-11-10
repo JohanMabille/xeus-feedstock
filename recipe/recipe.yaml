@@ -23,7 +23,7 @@ requirements:
     - if: unix
       then:
         - make
-        - pkg-config
+        - pkgconf
   host:
     - nlohmann_json
     - nlohmann_json-abi
